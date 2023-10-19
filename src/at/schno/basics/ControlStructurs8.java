@@ -14,7 +14,7 @@ public class ControlStructurs8 {
             System.out.println(gesamt);
             randomNumber = random.nextInt(10, 30);
             System.out.println(randomNumber);
-            if ((randomNumber = 15)||(randomNumber = 25)) {
+            if ((randomNumber == 15)||(randomNumber == 25)); {
                 isFinished = false;
             }
         }
