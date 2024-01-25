@@ -51,32 +51,8 @@ public class mariocharaktere {
     }
 
     public void getInfo (){
-        System.out.println("Typ des Charakters:" + this.Typ + "Zuhause: " + this.Zuhause + "Farbe: " +
-                this.Farbe + "Fähigkeit: " + this.Faehigkeit);
-    }
-}
-    public String getZuhause() {
-        return Zuhause;
+        System.out.println("Typ des Charakters: " + this.Typ + " Zuhause: " + this.Zuhause + " Farbe: " +
+                this.Farbe + " Fähigkeit: " + this.Faehigkeit);
     }
 
-    public void setZuhause(String Zuhause) {
-        this.Zuhause = Zuhause;
-    }
-
-    public String getFarbe() {
-        return Farbe;
-    }
-
-    public void setFarbe1(String Farbe) {
-        this.Farbe = Farbe;
-    }
-
-    public String getFaehigkeit() {
-        return Faehigkeit;
-    }
-
-    public void setFaehigkeit(String Faehigkeit) {
-        this.Faehigkeit = Faehigkeit;
-    }
-}
 }

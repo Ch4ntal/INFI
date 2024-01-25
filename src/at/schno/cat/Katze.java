@@ -26,35 +26,35 @@ public class Katze {
         this.charakter = charakter;
     }
 
-    public String getOberflaechenbeschaffenheit() {
+    public String getoberflaechenbeschaffenheit() {
         return oberflaechenbeschaffenheit;
     }
 
-    public void setOberflaechenbeschaffenheit(String oberflaechenbeschaffenheit) {
+    public void setoberflaechenbeschaffenheit(String oberflaechenbeschaffenheit) {
         this.oberflaechenbeschaffenheit = oberflaechenbeschaffenheit;
     }
 
-    public int getAlter() {
+    public int getalter() {
         return alter;
     }
 
-    public void setAlter(int alter) {
+    public void setalter(int alter) {
         this.alter = alter;
     }
 
-    public String getFarbe() {
+    public String getfarbe() {
         return farbe;
     }
 
-    public void setFarbe(String farbe) {
+    public void setfarbe(String farbe) {
         this.farbe = farbe;
     }
 
-    public String getName() {
+    public String getname() {
         return name;
     }
 
-    public void setName(String name) {
+    public void setname(String name) {
         this.name = name;
     }
 
@@ -62,7 +62,7 @@ public class Katze {
         System.out.println("Name der Katze" + this.name + "Farbe: " + this.farbe + "Oberflaechebeschaffenheit: " +
                 this.oberflaechenbeschaffenheit + "Charakter: " + this.charakter);
     }
-}
+
     public String getOberflaechenbeschaffenheit() {
         return oberflaechenbeschaffenheit;
     }
